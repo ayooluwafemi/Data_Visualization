@@ -247,6 +247,16 @@ y = np.array([3, 8, 1, 10])
 plt.bar(x,y)
 plt.show()
 
+# Horizontal Bar chart
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+plt.barh(x, y, height = 0.1)
+plt.show()
+
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+plt.bar(x, y, color = "red", width = 0.1)
+plt.show()
 
 
 

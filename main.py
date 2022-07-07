@@ -241,6 +241,11 @@ plt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')
 plt.colorbar()
 plt.show()
 
+# Bar
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
+plt.bar(x,y)
+plt.show()
 
 
 

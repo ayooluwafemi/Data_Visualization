@@ -93,3 +93,85 @@ plt.show()
 plt.plot(x, y)
 plt.grid()
 plt.show()
+
+plt.plot(x, y)
+plt.grid(axis = 'x')
+plt.show()
+
+plt.plot(x, y)
+plt.grid(axis = 'y')
+plt.show()
+
+plt.plot(x, y)
+plt.grid(color = 'green', linestyle = '--', linewidth = 0.5)
+plt.show()
+
+# Display Multiple Plots
+#plot 1:
+x = np.array([0, 1, 2, 3])
+y = np.array([3, 8, 1, 10])
+plt.subplot(1, 2, 1) #the figure has 1 row, 2 columns, and this plot is the first plot.
+plt.plot(x,y)
+#plot 2:
+x = np.array([0, 1, 2, 3])
+y = np.array([10, 20, 30, 40])
+plt.subplot(1, 2, 2) #the figure has 1 row, 2 columns, and this plot is the second plot.
+plt.plot(x,y)
+plt.show()
+
+#plot 1:
+x = np.array([0, 1, 2, 3])
+y = np.array([3, 8, 1, 10])
+plt.subplot(2, 1, 1)
+plt.plot(x,y)
+#plot 2:
+x = np.array([0, 1, 2, 3])
+y = np.array([10, 20, 30, 40])
+plt.subplot(2, 1, 2)
+plt.plot(x,y)
+plt.show()
+
+x = np.array([0, 1, 2, 3])
+y = np.array([3, 8, 1, 10])
+plt.subplot(2, 3, 1)
+plt.plot(x,y)
+x = np.array([0, 1, 2, 3])
+y = np.array([10, 20, 30, 40])
+plt.subplot(2, 3, 2)
+plt.plot(x,y)
+x = np.array([0, 1, 2, 3])
+y = np.array([3, 8, 1, 10])
+plt.subplot(2, 3, 3)
+plt.plot(x,y)
+x = np.array([0, 1, 2, 3])
+y = np.array([10, 20, 30, 40])
+plt.subplot(2, 3, 4)
+plt.plot(x,y)
+x = np.array([0, 1, 2, 3])
+y = np.array([3, 8, 1, 10])
+plt.subplot(2, 3, 5)
+plt.plot(x,y)
+x = np.array([0, 1, 2, 3])
+y = np.array([10, 20, 30, 40])
+plt.subplot(2, 3, 6)
+plt.plot(x,y)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

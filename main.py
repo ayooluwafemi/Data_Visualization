@@ -25,3 +25,8 @@ plt.show()
 ypoints = np.array([3, 8, 1, 10, 5, 7])
 plt.plot(ypoints)
 plt.show()
+
+# Marker and Line
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, marker = 'o')
+plt.show()

@@ -37,5 +37,6 @@ ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, 'o:r')
 plt.show()
 
+# Marker Size
 plt.plot(ypoints, marker = 'o', ms = 20)
 plt.show()

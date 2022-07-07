@@ -29,4 +29,13 @@ plt.show()
 # Marker and Line
 ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, marker = 'o')
+# plt.plot(ypoints, marker = '*')
+plt.show()
+
+# Format Strings
+ypoints = np.array([3, 8, 1, 10])
+plt.plot(ypoints, 'o:r')
+plt.show()
+
+plt.plot(ypoints, marker = 'o', ms = 20)
 plt.show()

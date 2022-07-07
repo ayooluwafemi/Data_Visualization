@@ -33,10 +33,15 @@ plt.plot(ypoints, marker = 'o')
 plt.show()
 
 # Format Strings
-ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, 'o:r')
 plt.show()
 
 # Marker Size
 plt.plot(ypoints, marker = 'o', ms = 20)
+plt.show()
+
+# Color
+plt.plot(ypoints, marker = 'o', ms = 20, mec = 'r')
+plt.show()
+plt.plot(ypoints, marker = 'o', ms = 20, mfc = 'r')
 plt.show()
